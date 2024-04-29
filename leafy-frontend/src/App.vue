@@ -12,7 +12,7 @@
       <router-view></router-view>
     </div>
     <footer class="footer" v-if="isLoggedIn"> 
-      <p>&copy; 2023 Leafy. All rights reserved.</p>
+      <p>&copy; 2023 Leafy. All rights reserved..</p>
     </footer>
     <BasicPopup :message="popup.message" :status="popup.status" :visible="popup.visible" @close="closePopup" />
   </div>
