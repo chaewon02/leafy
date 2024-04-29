@@ -16,7 +16,6 @@
     </footer>
     <BasicPopup :message="popup.message" :status="popup.status" :visible="popup.visible" @close="closePopup" />
   </div>
-  
 </template>
 
 <script>
